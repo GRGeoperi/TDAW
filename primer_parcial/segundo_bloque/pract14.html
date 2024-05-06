@@ -1,0 +1,103 @@
+<!--***Geoperi González Roldán**4CV4**05/05/2024***-->
+<!DOCTYPE html>
+<html lang="es-MX">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <meta name="author" content="Geoperi González Roldán" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <title>Ejercicio 14: Formulario de contacto</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f5f5f5;
+            }
+            .container {
+                max-width: 600px;
+                margin: 50px auto;
+                padding: 20px;
+                background-color: #fff;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            .form-table {
+                width: 100%;
+            }
+            .form-table td {
+                padding: 10px;
+            }
+            .form-table input[type="text"],
+            .form-table input[type="email"],
+            .form-table textarea {
+                width: 100%;
+                min-width: 100%;
+                /* Asegura que el área de texto ocupe el ancho completo de su contenedor */
+                max-width: 100%;
+                /* Asegura que el área de texto no se extienda más allá de su contenedor */
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                margin-top: 5px;
+                margin-bottom: 15px;
+            }
+            .form-table input[type="submit"] {
+                background-color: #4CAF50;
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                float: right;
+            }
+            .form-table input[type="submit"]:hover {
+                background-color: #45a049;
+            }
+            .form-table label {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Formulario de Contacto</h2>
+            <form action="#" method="post">
+                <table class="form-table">
+                    <tr>
+                        <td><label for="nombre">Nombre <span>*</span></label></td>
+                        <td><input type="text" id="nombre" name="nombre" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email <span>*</span></label></td>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="telefono">Teléfono</label></td>
+                        <td><input type="text" id="telefono" name="telefono"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="sitio-web">Sitio Web</label></td>
+                        <td><input type="text" id="sitio-web" name="sitio-web"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="asunto">Asunto <span>*</span></label></td>
+                        <td><input type="text" id="asunto" name="asunto" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mensaje">Mensaje <span>*</span></label></td>
+                        <td><textarea id="mensaje" name="mensaje" rows="5" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" value="Enviar">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <p>Los campos que tienen <span>*</span> son obligatorios</p>
+        </div>
+    </body>
+</html>
+<!-- ***Realizado por GGR***-->

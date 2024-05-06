@@ -1,0 +1,12 @@
+/* !Especificación de los colores de la página*/
+:root {
+    --main-bg-color: #1b1b1b;
+}
+
+/* !Base de la página*/
+body {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 15px;
+    background-color: var(--main-bg-color);
+}

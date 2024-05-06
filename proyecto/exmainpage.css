@@ -1,0 +1,61 @@
+/* !Base de la página*/
+body {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 15px;
+    background-color: #273746;
+}
+
+/* !Contenedor de la cinta de arriba*/
+.top-navigation {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* !Botón de iniciar sesión*/
+.button-login {
+    background-color: #566573;
+    border: none;
+    color: white;
+    padding: 7px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button-login:hover {
+    background-color: #34495e;
+}
+
+.button-login:active {
+    background-color: #808b96;
+}
+
+/* !Botón de registrarse*/
+.button-signup {
+    background-color: #566573;
+    border: none;
+    color: white;
+    padding: 7px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button-signup:hover {
+    background-color: #34495e;
+}
+
+.button-signup:active {
+    background-color: #808b96;
+}

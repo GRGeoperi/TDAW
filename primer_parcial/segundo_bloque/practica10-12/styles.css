@@ -1,0 +1,31 @@
+/*Geoperi González Roldán**4CV4**05/05/2024*/
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+/*Realizado por GGR*/
